@@ -14,7 +14,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./Index.CSS" />
-    <title>About Us</title>
+    <link rel="stylesheet" href="./contact-us.css" />
+    <title>Contact Us</title>
   </head>
   <body>
     <nav class="nav-links">
@@ -29,9 +30,9 @@
       </div>
       <div class="nav-menu">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="Aboutus.html" class="nav-link active">About</a>
+        <a href="Aboutus.html" class="nav-link">About</a>
         <a href="Our-services.html" class="nav-link">Services</a>
-        <a href="Contact-us.html" class="nav-link">Contact Us</a>
+        <a href="Contact-us.html" class="nav-link active">Contact Us</a>
       </div>
       <div class="nav-bar">
         <i class="fa fa-bars"></i>
@@ -40,63 +41,63 @@
 
     <main>
       <!-- Page header -->
-      <section class="about-header">
-        <h1>About DREAMS CleanUp</h1>
-        <p>Committed to clean, healthy, and welcoming spaces.</p>
+      <section class="contact-header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with DREAMS CleanUp. We’re here to help.</p>
       </section>
 
-      <!-- About content -->
-      <section class="aboutus1">
-        <div class="About">
-          <div class="aboutus-text">
-            <h2>Who We Are</h2>
+      <!-- Contact details + form -->
+      <section class="contact-section">
+        <div class="contact-container">
+          <!-- Contact information -->
+          <div class="contact-info">
+            <h2>Our Contact Details</h2>
+
             <p>
-              DREAMS CleanUp is a professional cleaning service dedicated to
-              providing reliable, high-quality indoor and outdoor cleaning
-              solutions for homes, offices, and institutions.
+              <i class="fa fa-phone"></i>
+              <strong>Phone:</strong> 0784055926
             </p>
 
             <p>
-              We focus on hygiene, safety, and attention to detail, ensuring
-              every space we clean is comfortable, fresh, and well maintained.
+              <i class="fa fa-envelope"></i>
+              <strong>Email:</strong> aziidahnabaasa19@gmail.com
             </p>
-          </div>
 
-          <div class="aboutus1-imageimg">
-            <img src="./2 - Copy.jpg" alt="Cleaning service in action" />
-          </div>
-        </div>
-      </section>
-      <!-- Mission & Vision -->
-      <section class="about-focus">
-        <div class="focus-container">
-          <div class="focus-card">
-            <h2>Our Mission</h2>
             <p>
-              To deliver dependable and affordable cleaning services that
-              promote healthy living and working environments.
+              <i class="fa fa-map-marker"></i>
+              <strong>Location:</strong> Mbarara, Uganda
             </p>
-          </div>
 
-          <div class="focus-card">
-            <h2>Our Vision</h2>
             <p>
-              To become a trusted leader in professional cleaning services by
-              setting high standards in quality, integrity, and customer care.
+              Reach out to us for inquiries, quotations, or bookings. We respond
+              promptly and professionally.
             </p>
           </div>
-        </div>
-      </section>
 
-      <!-- Core Values -->
-      <section class="core-values">
-        <h2>Our Core Values</h2>
+          <!-- Contact form -->
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
 
-        <div class="values-list">
-          <p>Professionalism and reliability</p>
-          <p>Attention to detail</p>
-          <p>Health and safety first</p>
-          <p>Customer satisfaction</p>
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>

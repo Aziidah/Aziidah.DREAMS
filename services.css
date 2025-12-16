@@ -1,0 +1,93 @@
+.services-header {
+  background-color: #f2e4ec;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services-header h1 {
+  font-size: 42px;
+  color: #4a1d33;
+  margin-bottom: 10px;
+}
+
+.services-header p {
+  font-size: 18px;
+  color: #333;
+}
+
+.services-overview {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1;
+  min-width: 260px;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.service-card i {
+  font-size: 36px;
+  color: #111ff0;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  color: #4a1d33;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.services-cta {
+  background-color: #f7f7f7;
+  color: #111ff0;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services-cta h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.services-cta p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #111ff0;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+}
